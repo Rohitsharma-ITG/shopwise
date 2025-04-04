@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saturday Test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="header-top">
+            <div class="container-body">
+                <div class="container header-top-inner">
+                    <div class="top-left">
+                        <select name="country">
+                            <option value="United States" class="option"> <img class="img-u" src="images/country-1.png"
+                                    alt="option-1">United States</option>
+                            <option value="United States" class="option"> <img class="img-u" src="images/country-1.png"
+                                    alt="img" width="16" height="16"> English</option>
+                            <option value="United States" class="option"> <img class="img-u" src="images/country-2.png"
+                                    alt="img" width="16" height="16"> France</option>
+                        </select>
+                        <select name="usd">
+                            <option value="usd">USD</option>
+                            <option value="usd">EUR</option>
+                            <option value="usd">GBR</option>
+                        </select>
+                        <p><a href="#"><i class="fa-solid fa-mobile-screen-button"></i> 123-456-7890</a></p>
+                    </div>
+                    <div class="top-right">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i> Compare</a>
+                        <a href="#"><i class="fa-solid fa-heart"></i> Wishlist</a>
+                        <a href="#"><i class="fa-solid fa-user"></i> Login</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottum">
+            <div class="container-body">
+                <div class="container header-bottom-inner">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="images/header-logo.png" alt="logo" width="182" height="47">
+                        </a>
+                    </div>
+                    <nav class="main-menu">
+                        <ul class="nav">
+                            <li class="drop-down"><a href="#">home <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="#">Fashion 1 </a></li>
+                                        <li><a href="#">Fashion 2</a></li>
+                                        <li><a href="#">Furniture 1 </a></li>
+                                        <li><a href="#">Furniture 2</a></li>
+                                        <li><a href="#"> electronics 1</a></li>
+                                        <li><a href="#">electronics 2 </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="drop-down"><a href="#">pages <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li><a href="#">about us </a></li>
+                                        <li><a href="#">contact us</a></li>
+                                        <li><a href="#">faq</a></li>
+                                        <li><a href="#">404 error page</a></li>
+                                        <li><a href="#"> Login</a></li>
+                                        <li><a href="#">ragister </a></li>
+                                        <li><a href="#">terms and condition </a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="drop-down-2"><a href="#">product <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="mega-menu sub-menu">
+                                    <div class="mega-top">
+                                        <div class="mega-div">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Woman's</h3>
+                                                    </a></li>
+                                                <li><a href="#">vestibulum sed </a></li>
+                                                <li><a href="#">Donec porttitor</a></li>
+                                                <li><a href="#">Donec vitae facilisis </a></li>
+                                                <li><a href="#">Curabitur tempus</a></li>
+                                                <li><a href="#"> Vivamus in tortor</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-div">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Men's</h3>
+                                                    </a></li>
+                                                <li><a href="#">Donec vitae ante ante</a></li>
+                                                <li><a href="#">Etiam ac rutrum</a></li>
+                                                <li><a href="#">Quisque condimentum</a></li>
+                                                <li><a href="#">Curabitur laoreet</a></li>
+                                                <li><a href="#"> Vivamus in tortor</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-div">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Kid's</h3>
+                                                    </a></li>
+                                                <li><a href="#">Donec vitae facilisis</a></li>
+                                                <li><a href="#">Quisque condimentum</a></li>
+                                                <li><a href="#">Etiam ac rutrum</a></li>
+                                                <li><a href="#">Donec vitae ante ante</a></li>
+                                                <li><a href="#"> Donec porttitor</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-div no-line">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Accessories</h3>
+                                                    </a></li>
+                                                <li><a href="#">Donec vitae facilisis</a></li>
+                                                <li><a href="#">Quisque condimentum</a></li>
+                                                <li><a href="#">Etiam ac rutrum</a></li>
+                                                <li><a href="#">Donec vitae ante ante</a></li>
+                                                <li><a href="#"> Donec porttitor</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="mega-down">
+                                        <div class="mega-img img-1">
+                                            <div class="mega-text">
+                                                <p>10% Off</p>
+                                                <h3>New Arrival</h3>
+                                                <p><a href="#">Shop Now</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="mega-img img-2">
+                                            <div class="mega-text">
+                                                <p>15% Off</p>
+                                                <h3>Men's Fashion</h3>
+                                                <p><a href="#">Shop Now</a></p>
+                                            </div>
+                                        </div>
+                                        <div class="mega-img img-3  ">
+                                            <div class="mega-text">
+                                                <p>23% Off</p>
+                                                <h3>Kids Fashion</h3>
+                                                <p><a href="#">Shop Now</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="drop-down"><a href="#">blog <i class="fa-solid fa-angle-down"></i></a></i>
+                                <div class="sub-menu">
+                                    <ul>
+                                        <li class="drop-down-3"><a href="#" class="list-arow">Grids<i
+                                                    class="fa-solid fa-angle-right"></i></a>
+                                            <div class="sub-menu-2">
+                                                <ul>
+                                                    <li><a href="#">3 columns</a></li>
+                                                    <li><a href="#">4 columns</a></li>
+                                                    <li><a href="#">Left Sidebar</a></li>
+                                                    <li><a href="#"> right Sidebar</a></li>
+                                                    <li><a href="#">Standard Left Sidebar</a></li>
+                                                    <li><a href="#">Standard right Sidebar</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="drop-down-3"><a href="#" class="list-arow">Masonry <i
+                                                    class="fa-solid fa-angle-right"></i></a>
+                                            <div class="sub-menu-2">
+                                                <ul>
+                                                    <li><a href="#">3 columns</a></li>
+                                                    <li><a href="#">4 columns</a></li>
+                                                    <li><a href="#">Left Sidebar</a></li>
+                                                    <li><a href="#"> right Sidebar</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="drop-down-3"><a href="#" class="list-arow">Fashion 1 <i
+                                                    class="fa-solid fa-angle-right"></i></a>
+                                            <div class="sub-menu-2">
+                                                <ul>
+                                                    <li><a href="#">default</a></li>
+                                                    <li><a href="#">Left Sidebar</a></li>
+                                                    <li><a href="#">Slider post</a></li>
+                                                    <li><a href="#">video post</a></li>
+                                                    <li><a href="#">audio post</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="drop-down-3"><a href="#" class="list-arow">Fashion 1 <i
+                                                    class="fa-solid fa-angle-right"></i></a>
+                                            <div class="sub-menu-2">
+                                                <ul>
+                                                    <li><a href="#">Left Sidebar</a></li>
+                                                    <li><a href="#"> right Sidebar</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="drop-down-2"><a href="#">shop <i class="fa-solid fa-angle-down"></i></a>
+                                <div class="mega-menu sub-menu">
+                                    <div class="mega-top">
+                                        <div class="mega-div">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Woman's</h3>
+                                                    </a></li>
+                                                <li><a href="#">vestibulum sed </a></li>
+                                                <li><a href="#">Donec porttitor</a></li>
+                                                <li><a href="#">Donec vitae facilisis </a></li>
+                                                <li><a href="#">Curabitur tempus</a></li>
+                                                <li><a href="#"> Vivamus in tortor</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-div">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Men's</h3>
+                                                    </a></li>
+                                                <li><a href="#">Donec vitae ante ante</a></li>
+                                                <li><a href="#">Etiam ac rutrum</a></li>
+                                                <li><a href="#">Quisque condimentum</a></li>
+                                                <li><a href="#">Curabitur laoreet</a></li>
+                                                <li><a href="#"> Vivamus in tortor</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-div">
+                                            <ul>
+                                                <li><a href="#">
+                                                        <h3>Kid's</h3>
+                                                    </a></li>
+                                                <li><a href="#">Donec vitae facilisis</a></li>
+                                                <li><a href="#">Quisque condimentum</a></li>
+                                                <li><a href="#">Etiam ac rutrum</a></li>
+                                                <li><a href="#">Donec vitae ante ante</a></li>
+                                                <li><a href="#"> Donec porttitor</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="mega-div no-line">
+                                            <div class="mega-menu-2-img">
+                                                <div class="mega-menu-2-text">
+                                                    <h3>New Collection</h3>
+                                                    <h2>Sale 30% Off</h2>
+                                                    <a href="#">Shop Now</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li><a href="#">contact us</a></li>
+                        </ul>
+                        <div class="header-icon">
+                            <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            <div class="drop-down-5">
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <span class="two">2</span>
+                                <div class="sub-menu-5">
+                                    <div class="sub-menu-6">
+                                        <div class="div-img">
+                                            <img src="images/pro-1.png" alt="img">
+                                        </div>
+                                        <div class="head-text">
+                                            <p class="flex">Variable product 001 <i class="fa-solid fa-xmark"></i></p>
+                                            <h4>1 x $78.00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="sub-menu-6">
+                                        <div class="div-img">
+                                            <img src="images/pro-2.png" alt="img">
+                                        </div>
+                                        <div class="head-text">
+                                            <p class="flex">Variable product 001 <i class="fa-solid fa-xmark"></i></p>
+                                            <h4>1 x $78.00</h4>
+                                        </div>
+                                    </div>
+                                    <div class="cart-btn">
+                                        <div class="btn-top">
+                                            <h3>'Subtotal:</h3>
+                                            <h3>$159.00</h3>
+                                        </div>
+                                        <div class="btn">
+                                            <a class="view" href="#">View Cart</a>
+                                            <a class="checkout" href="#">Checkout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drawwer">
+                                <div class="bar-2">
+                                    <i class="fa-solid fa-bars"></i>
+                                </div>
+                                <div class="close">
+                                    <i class="fa-solid fa-xmark"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+                <div class="fixed-up">
+                    <a href="#"><i class="fa-solid fa-angle-up"></i></a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container-body">
+        <section class="section-1">
+            <div class="section_1 section-1-img-1">
+                <div class="section_1text">
+                    <h3>Get up to 50% off Today Only!</h3>
+                    <h2>Woman Fashion</h2>
+                    <button><a href="#">SHOP NOW</a></button>
+                </div>
+            </div>
+            <div class="section_1 section-1-img-2">
+                <div class="section_1text">
+                    <h3>50% off Today Only!</h3>
+                    <h2>Man Fashion</h2>
+                    <button><a href="#">SHOP NOW</a></button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-body">
+        <div class="container">
+            <section class="section_2">
+                <div class="section_2-div">
+                    <div class="section_2-div1"></div>
+                    <div class="section_2-minidiv">
+                        <h4>Super Sale</h4>
+                        <h2>New Collection</h2>
+                        <a href="#">Shop now</a>
+                    </div>
+                </div>
+                <div class="section_2-div">
+                    <div class="section_2-div2"></div>
+                    <div class="section_2-minidiv">
+                        <h2>New Season</h2>
+                        <h4>Sale 40% Off</h4>
+                        <a href="#">Shop now</a>
+                    </div>
+                </div>
+            </section>
+            <section class="section-3">
+                <div class="container-body">
+                    <div class="container">
+                        <h2>Exclusive Products</h2>
+                    </div>
+                    <div class="section-3-bot">
+                        <span class="new-arival"> <a href="#">New Arrival</a></span>
+                        <a href="#">Best Sellers</a>
+                        <a href="#">Featured</a>
+                        <a href="#">Special Offer</a>
+                    </div>
+                </div>
+            </section>
+            <div class="container-body">
+                <div class="">
+                    <section class="section-4">
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/prod-1.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span>
+                                </div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/prod-2.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/prod-3.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="new">
+                                <h4>New</h4>
+                            </div>
+                        </div>
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/prod-4.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <div class="container-body">
+                <div class="">
+                    <section class="section-4">
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/pro-5.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/pro-6.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="new hot">
+                                <h4>Hot</h4>
+                            </div>
+                        </div>
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/pro-7.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                            <div class="new sale">
+                                <h4>Sale</h4>
+                            </div>
+                        </div>
+                        <div class="pro">
+                            <div class="pro-img">
+                                <a href="#"> <img src="images/pro-8.png" alt=""></a>
+                            </div>
+                            <div class="pad-18">
+                                <a href="#">
+                                    <h3>Blue Dress For Woman</h3>
+                                </a>
+                                <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                                    <p>35% Off</p>
+                                </div>
+                                <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                        class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                        <div class="color">
+                                            <a class="brown-color" href="#"></a>
+                                            <a class="blue-color" href="#"></a>
+                                            <a class="red-color" href="#"></a>
+                                        </div>
+                            </div>
+                            <div class="pro-icon">
+                                <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                                <a href="#"><i class="fa-solid fa-heart"></i></a>
+                                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="section_1 section-5 container-body">
+        <div class="container section-5-inner">
+            <div class="sec-5-img">
+                <img src="images/section-5.png" alt="img">
+            </div>
+            <div class="section_5text">
+                <span class="red-1">New season trends!</span>
+                <h2>Best Summer Collection</h2>
+                <p>Sale Get up to 50% Off</p>
+                <button><a href="#">Shop now</a></button>
+            </div>
+        </div>
+    </section>
+    <div class="container-body">
+        <div class="container container-2">
+            <div class="center">
+                <h2>Featured Products</h2>
+            </div>
+            <section class="section-7">
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-1.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-2.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-3.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="new">
+                        <h4>New</h4>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-4.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-1.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-2.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <div class="pro-img">
+                        <a href="#"> <img src="images/prod-3.png" alt=""></a>
+                    </div>
+                    <div class="pad-18">
+                        <a href="#">
+                            <h3>Blue Dress For Woman</h3>
+                        </a>
+                        <div class="price"><span class="red">$45.00 </span><del>$55.25</del>
+                            <p>35% Off</p>
+                        </div>
+                        <div class="star"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                                class="fa-regular fa-star"></i><span class="black">(25)</span></div>
+                                <div class="color">
+                                    <a class="brown-color" href="#"></a>
+                                    <a class="blue-color" href="#"></a>
+                                    <a class="red-color" href="#"></a>
+                                </div>
+                    </div>
+                    <div class="pro-icon">
+                        <a href="#"><i class="fa-solid fa-code-compare"></i></a>
+                        <a href="#"><i class="fa-solid fa-heart"></i></a>
+                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                        <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="new">
+                        <h4>New</h4>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="section-8-outer">
+        <div class="container-body">
+            <div class="container section-8">
+                <h2>Our Client Say!</h2>
+                <div class="inner-wrap">
+                    <div class="inner-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis
+                            consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis
+                            possimus quasi sint sit tempora voluptatem.</p>
+                        <div class="img-text">
+                            <div class="img-8">
+                                <img src="images/img-3.png" alt="image">
+                            </div>
+                            <div class="text-8">
+                                <h4>Lissa Castro</h4>
+                                <span class="red">
+                                    Designer
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis
+                            consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis
+                            possimus quasi sint sit tempora voluptatem.</p>
+                        <div class="img-text">
+                            <div class="img-8">
+                                <img src="images/img-8.png" alt="image">
+                            </div>
+                            <div class="text-8">
+                                <h4>Lissa Castro</h4>
+                                <span class="red">
+                                    Designer
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="inner-8">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aliquam amet animi blanditiis
+                            consequatur debitis dicta distinctio, enim error eum iste libero modi nam natus perferendis
+                            possimus quasi sint sit tempora voluptatem.</p>
+                        <div class="img-text">
+                            <div class="img-8">
+                                <img src="images/img-9.png" alt="image">
+                            </div>
+                            <div class="text-8">
+                                <h4>Lissa Castro</h4>
+                                <span class="red">
+                                    Designer
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container-body">
+        <div class="container">
+            <section class="section-9">
+                <div class="div-9">
+                    <div class="icon-9">
+                        <i class="fa-solid fa-truck"></i>
+                    </div>
+                    <h3>Free Delivery</h3>
+                    <p>If you are going to use of Lorem, you need to be sure there anything</p>
+                </div>
+                <hr>
+                <div class="div-9">
+                    <div class="icon-9">
+                        <i class="fa-solid fa-money-bill"></i>
+                    </div>
+                    <h3>30 Day Return</h3>
+                    <p>If you are going to use of Lorem, you need to be sure there anything</p>
+                </div>
+                <hr>
+                <div class="div-9">
+                    <div class="icon-9">
+                        <i class="fa-solid fa-headphones"></i>
+                    </div>
+                    <h3>27/4 Support</h3>
+                    <p>If you are going to use of Lorem, you need to be sure there anything</p>
+                </div>
+            </section>
+        </div>
+    </div>
+    <section class="section-10">
+        <div class="container-body">
+            <div class="container section-10-inner">
+                <div class="heading">
+                    <h2>Subscribe Our Newsletter</h2>
+                </div>
+                <div class="input">
+                    <form>
+                        <input type="text" placeholder="Enter Email Address">
+                        <button type="submit" class="btn-10">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container-body">
+            <div class="container footer-top">
+                <div class="foot-col col-1">
+                    <div class="foot-logo">
+                        <a href="#"><img src="images/footer-logo.png" alt="logo"></a>
+                    </div>
+                    <p>If you are going to use of Lorem Ipsum need to be sure there isn't hidden of text</p>
+                    <div class="foot-icon">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="links foot-col">
+                    <div class="footer-heading">
+                        <h2>Useful Links</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#"> About Us</a></li>
+                        <li><a href="#"> Our Gallery</a></li>
+                        <li><a href="#"> Our Blogs</a></li>
+                        <li><a href="#">FAQ’S</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="links foot-col">
+                    <div class="footer-heading">
+                        <h2>Category</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#"> About Us</a></li>
+                        <li><a href="#"> Our Gallery</a></li>
+                        <li><a href="#"> Our Blogs</a></li>
+                        <li><a href="#">FAQ’S</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="links foot-col">
+                    <div class="footer-heading">
+                        <h2>My Account</h2>
+                    </div>
+                    <ul>
+                        <li><a href="#"> About Us</a></li>
+                        <li><a href="#"> Our Gallery</a></li>
+                        <li><a href="#"> Our Blogs</a></li>
+                        <li><a href="#">FAQ’S</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="foot-contact foot-col">
+                    <div class="footer-heading">
+                        <h2>Contact Info</h2>
+                    </div>
+                    <div class="contact">
+                        <a class="gap-1" href="#">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <p>123 Street, Old Trafford, New South London , UK</p>
+                        </a>
+                        <a class="gap-1" href="#">
+                            <i class="fa-solid fa-envelope"></i>
+                            <p>info@sitename.com</p>
+                        </a>
+                        <a class="gap-1" href="#">
+                            <i class="fa-solid fa-mobile"></i>
+                            <p>+ 457 789 789 65</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-body foot-bor">
+            <div class="container footer-bot">
+                <p>© 2020 All Rights Reserved by Bestwebcreator</p>
+                <div class="footer-card">
+                    <a href="#"><img src="images/card-1.png" alt="payment card"></a>
+                    <a href="#"><img src="images/card-2.png" alt="payment card"></a>
+                    <a href="#"><img src="images/card-3.png" alt="payment card"></a>
+                    <a href="#"><img src="images/card-4.png" alt="payment card"></a>
+                    <a href="#"><img src="images/card-5.png" alt="payment card"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
